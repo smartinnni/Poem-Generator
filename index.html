@@ -7,19 +7,22 @@
     <title>AI Poem Generator</title>
 </head>
 <body>
+    <div class="container">
     <header>
         <h1>AI Poem Generator</h1>
     </header>
+
     <main>
         <form>
             <input type="text" placeholder="Enter the topic of the poem" 
             autofocus 
             required 
             autocomplete="off"
+            class="instructions"
             />
-            <input type="submit" />
+            <input type="submit" class="submit-button" />
         </form>
-        <div>
+        <div class="poem">
             I’m Yertle the Turtle!
             <br />
             Oh, marvelous me!
@@ -35,6 +38,7 @@
     <a href="https://aipoem-generator1.netlify.app/" target="_blank">
         hosted on Netlify </a>
     </footer>
+    </div>
 
     <script src="index.js"></script>
 </body>
